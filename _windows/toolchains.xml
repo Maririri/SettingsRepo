@@ -5,6 +5,7 @@
         <toolSetOption type="msvc.arch" value="amd64" />
       </toolchain>
       <toolchain name="wsl-ubuntu-1804-home" toolSetKind="WSL" toolSetPath="Ubuntu-18.04" customCMakePath="\usr\bin\cmake" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb" />
+      <toolchain name="wsl-ubuntu-1804-home (1)" toolSetKind="WSL" toolSetPath="Ubuntu-18.04" customCMakePath="\usr\bin\cmake" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb" />
     </toolchains>
   </component>
 </application>
