@@ -3,12 +3,7 @@
     <toolchains detectedVersion="5">
       <toolchain name="MinGW" toolSetKind="MINGW" toolSetPath="C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64" debuggerKind="CUSTOM_GDB" customGDBPath="C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gdb.exe" />
       <toolchain name="Cygwin" toolSetKind="CYGWIN" toolSetPath="C:\cygwin64" debuggerKind="CUSTOM_GDB" customGDBPath="C:\cygwin64\bin\gdb.exe" />
-      <toolchain name="Visual Studio" toolSetKind="MSVC" toolSetPath="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community" debuggerKind="BUNDLED_LLDB">
-        <toolSetOption type="msvc.arch" value="amd64" />
-      </toolchain>
-      <toolchain name="WSL1" toolSetKind="WSL" toolSetPath="Ubuntu-18.04" customCMakePath="\usr\local\bin\cmake" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb" />
-      <toolchain name="WSL2" toolSetKind="WSL" toolSetPath="Ubuntu-20.04" customCMakePath="\usr\local\bin\cmake" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb" />
-      <toolchain name="Remote Host" toolSetKind="REMOTE" customCMakePath="\snap\cmake\current\bin\cmake" hostId="79d30351-125d-475e-b6fb-1c7365124aeb" sshConfigName="parallels@10.211.55.4:22 password" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb" />
+      <toolchain name="Visual Studio" toolSetKind="MSVC" toolSetPath="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community" debuggerKind="BUNDLED_LLDB" />
     </toolchains>
   </component>
 </application>
