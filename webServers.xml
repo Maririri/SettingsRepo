@@ -1,0 +1,18 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="79d30351-125d-475e-b6fb-1c7365124aeb" name="Remote Host (79d30351-125d-475e-b6fb-1c7365124aeb)" url="http:///">
+        <fileTransfer accessType="SFTP" host="10.211.55.4" port="22" sshConfigId="0566b963-a897-4fe8-8fa4-bfdf58973fe4" sshConfig="parallels@10.211.55.4:22 password" />
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>Remote Development</name>
+        <mayChangeLevel>false</mayChangeLevel>
+        <servers>
+          <name value="Remote Host (79d30351-125d-475e-b6fb-1c7365124aeb)" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</application>
